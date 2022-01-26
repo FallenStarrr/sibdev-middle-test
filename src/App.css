@@ -1,0 +1,29 @@
+input {
+   max-width: 200px; 
+   border-radius: 25px;
+}
+
+.input-error {
+  border: 1px red solid; 
+}
+
+.input-error ~ label {
+  color: red;
+}
+
+.input-error ::placeholder {
+  color: red
+}
+
+.active {
+  border: 1px rgb(55, 55, 238) solid; 
+}
+
+button {
+  width: 150px;
+  height: 25px;
+  background-color: rgba(55, 55, 238, .5) ;
+  color: white;
+  border-radius: 15px;
+}
+
